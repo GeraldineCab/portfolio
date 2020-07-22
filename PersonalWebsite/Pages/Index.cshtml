@@ -1,0 +1,37 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+@{
+    ViewData["Title"] = Localizer["PagesTitle"];
+}
+
+<div class="row justify-content-center">
+    <div class="col-12 d-flex justify-content-center py-4">
+        <h4 class="font-weight-bold">@Localizer["Greeting"]</h4>
+    </div>
+    <div class="col-4 col-sm-2">
+        <div>
+            <img class="me-picture rounded-circle" src="~/img/home/me.png" />
+        </div>
+    </div>
+    <div class="w-100"></div>
+    <div class="col-12 col-sm-8 py-4">
+        <p class="text-center">@Localizer["PersonalDescription"]</p>
+    </div>    
+    <div class="w-100"></div>
+    <p class="text-muted font-weight-bold mt-5">@Localizer["KnowMore"]</p>
+    <div class="w-100"></div>
+    <div class="col-12 col-md-4 d-flex flex-row justify-content-center">
+        <a href="https://github.com/GeraldineCab" target="_blank" class="cursor-pointer">
+            <div class="main-color-bg rounded-circle social-icon-container d-flex justify-content-center align-items-center mr-4">
+                <img src="~/img/github.svg" class="text-white social-icon" />
+            </div>
+        </a>
+        <a href="https://www.linkedin.com/in/geraldinecabrera/" target="_blank" class="cursor-pointer">
+            <div class="main-color-bg rounded-circle social-icon-container d-flex justify-content-center align-items-center">
+                <img src="~/img/linkedin.svg" class="social-icon" />
+            </div>
+        </a>
+    </div>
+</div>

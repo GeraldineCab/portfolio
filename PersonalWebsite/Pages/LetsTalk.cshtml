@@ -1,0 +1,29 @@
+﻿@page
+
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+@model PersonalWebsite.LetsTalkModel
+@{
+    ViewData["Title"] = Localizer["PagesTitle"];
+}
+
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <h5 class="font-weight-bold text-center">@Localizer["WriteMe"]</h5>
+            <p class="text-muted text-center">@Localizer["ContactIntroduction"]</p>
+        </div>
+        <div class="col-12 col-lg-3 mt-5">
+            <div class="main-color-bg text-white rounded-lg p-3 d-flex flex-column align-items-center">
+                <img src="~/img/email.svg" class="contact-icon mb-4"/>
+                <a href="mailto:geraldinecaby@gmail.com" class="text-white text-decoration-none">@Localizer["WriteEmail"]</a>
+            </div>
+        </div>
+        <div class="col-12 col-lg-3 mt-5">
+            <div class="main-color-bg text-white rounded-lg p-3 d-flex flex-column align-items-center">
+                <img src="~/img/linkedin.svg" class="contact-icon mb-4" />
+                <a href="https://www.linkedin.com/in/geraldinecabrera/" target="_blank" class="text-white text-decoration-none">@Localizer["LinkedInContact"]</a>
+            </div>
+        </div>
+    </div>
+
