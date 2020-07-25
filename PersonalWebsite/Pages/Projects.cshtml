@@ -15,14 +15,21 @@
         <div class="col-12 col-lg-4 mb-sm-4">
             <div class="rounded-lg shadow-sm">
                 <img src="~/img/projects/leaders-guide.png" class="project-picture rounded-top" />
+                <div class="p-3 d-flex flex-row justify-content-between align-items-center">
+                    <p class="font-weight-bold m-0">@Localizer["LeadersGuide"]</p>
+                    <div class="badge badge-info">
+                    <p class="small m-0">
+                        @Localizer["WorkInProgress"]
+                    </p>
+                    </div>
+                </div>
                 <div class="p-3">
-                    <p class="font-weight-bold">@Localizer["LeadersGuide"]</p>
                     <p class="text-secondary">
                         @Localizer["LeadersGuideDesc"]
                     </p>
                 </div>
                 <div class="p-2 pb-4 d-flex justify-content-center">
-                    <a class="btn main-color-bg rounded-pill text-white px-5 small-text visit-project cursor-pointer">
+                    <a class="btn main-color-bg rounded-pill text-white px-5 small-text visit-project cursor-pointer disabled">
                         @Localizer["LeadersGuideButton"]
                         <img src="~/img/arrow.svg" class="ml-2 arrow-right" />
                     </a>

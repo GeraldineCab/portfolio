@@ -135,4 +135,7 @@
   <data name="Welcome" xml:space="preserve">
     <value>Explora</value>
   </data>
+  <data name="WorkInProgress" xml:space="preserve">
+    <value>En proceso</value>
+  </data>
 </root>

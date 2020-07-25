@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Geraldine Cabrera\\Documents\\Git\\personal-website\\PersonalWebsite\\PersonalWebsite.csproj": {}
+    "C:\\Users\\Geraldine Cabrera\\Documents\\Git\\portfolio\\PersonalWebsite\\PersonalWebsite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Geraldine Cabrera\\Documents\\Git\\personal-website\\PersonalWebsite\\PersonalWebsite.csproj": {
+    "C:\\Users\\Geraldine Cabrera\\Documents\\Git\\portfolio\\PersonalWebsite\\PersonalWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Geraldine Cabrera\\Documents\\Git\\personal-website\\PersonalWebsite\\PersonalWebsite.csproj",
+        "projectUniqueName": "C:\\Users\\Geraldine Cabrera\\Documents\\Git\\portfolio\\PersonalWebsite\\PersonalWebsite.csproj",
         "projectName": "PersonalWebsite",
-        "projectPath": "C:\\Users\\Geraldine Cabrera\\Documents\\Git\\personal-website\\PersonalWebsite\\PersonalWebsite.csproj",
+        "projectPath": "C:\\Users\\Geraldine Cabrera\\Documents\\Git\\portfolio\\PersonalWebsite\\PersonalWebsite.csproj",
         "packagesPath": "C:\\Users\\Geraldine Cabrera\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Geraldine Cabrera\\Documents\\Git\\personal-website\\PersonalWebsite\\obj\\",
+        "outputPath": "C:\\Users\\Geraldine Cabrera\\Documents\\Git\\portfolio\\PersonalWebsite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Geraldine Cabrera\\AppData\\Roaming\\NuGet\\NuGet.Config",
