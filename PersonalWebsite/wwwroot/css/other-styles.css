@@ -55,3 +55,6 @@
 .brand-icon {
     width:30px;
 }
+.contact-button:hover {
+    transform: scale(1.02);
+}

@@ -6,6 +6,6 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\Geraldine Cabrera\Documents\Git\portfolio\PersonalWebsite\bin\Release\netcoreapp3.1\publish\</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAW7Slzgj1QkmLGMBGKIq4RgAAAAACAAAAAAAQZgAAAAEAACAAAAAw/vYFkunaqJg11sYSYjnwLXAQ22I1IznDBrGt7AgifQAAAAAOgAAAAAIAACAAAAA5nlrlA3G9vfZd6zVH2Z/QmrJrzDMl3/F/y2+wuPEa5SAAAACi3l6thN7+kJgMVovOKgSgQdTgB2eW6IGYVdOJlT5qTEAAAACpbTwYudvybrytjbWLhyfNQzPDwuJpO4FnYa88rp43DgpcaUw3oZWr3BikacvASwcmvxPKuOk/UYGr/435p6Im</EncryptedPassword>
   </PropertyGroup>
 </Project>
