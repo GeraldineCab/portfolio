@@ -12,18 +12,18 @@
             <h4 class="font-weight-bold text-center">@Localizer["Welcome"]</h4>
             <p class="text-secondary text-center">@Localizer["ProjectsIntroduction"]</p>
         </div>
-        <div class="col-12 col-lg-4 mb-sm-4">
-            <div class="rounded-lg shadow-sm">
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="project rounded-lg shadow-sm d-flex flex-column">
                 <img src="~/img/projects/leaders-guide.png" class="project-picture rounded-top" />
                 <div class="p-3 d-flex flex-row justify-content-between align-items-center">
                     <p class="font-weight-bold m-0">@Localizer["LeadersGuide"]</p>
                     <div class="badge badge-info">
-                    <p class="small m-0">
-                        @Localizer["WorkInProgress"]
-                    </p>
+                        <p class="small m-0">
+                            @Localizer["WorkInProgress"]
+                        </p>
                     </div>
                 </div>
-                <div class="p-3">
+                <div class="p-3 project-desc">
                     <p class="text-secondary">
                         @Localizer["LeadersGuideDesc"]
                     </p>
@@ -34,7 +34,33 @@
                         <img src="~/img/arrow.svg" class="ml-2 arrow-right" />
                     </a>
                 </div>
-                
+
             </div>
-        </div>        
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="project rounded-lg shadow-sm d-flex flex-column">
+                <img src="~/img/projects/opinion-app.png" class="project-picture rounded-top" />
+                <div class="p-3 d-flex flex-row justify-content-between align-items-center">
+                    <p class="font-weight-bold m-0">@Localizer["OpinionsApp"]</p>
+                    <div class="badge badge-info">
+                        <p class="small m-0">
+                            @Localizer["WorkInProgress"]
+                        </p>
+                    </div>
+                </div>
+                <div class="p-3 project-desc">
+                    <p class="text-secondary">
+                        @Localizer["OpinionsAppDesc"]
+                    </p>
+                </div>
+                <div class="p-2 pb-4 d-flex justify-content-center">
+                    <a class="btn main-color-bg rounded-pill text-white px-5 small-text visit-project cursor-pointer">
+                        @Localizer["OpinionsAppButton"]
+                        <img src="~/img/arrow.svg" class="ml-2 arrow-right" />
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
     </div>

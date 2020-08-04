@@ -1,0 +1,56 @@
+﻿:root {
+    --main-color: rgba(99, 183, 175, 1);
+}
+::-webkit-scrollbar{
+    width:7px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.main-color-font {
+    color: var(--main-color) !important;
+}
+.main-color-bg {
+    background-color: var(--main-color) !important;
+}
+.me-picture {
+    width:80%;
+}
+.social-icon-container {
+    width: 40px;
+    height: 40px;
+}
+.social-icon-container:hover {
+    transform:scale(1.05);
+}
+.social-icon {
+    width:25px;
+    height:25px;
+}
+.cursor-pointer:hover {
+    cursor:pointer;
+}
+.project-picture {
+    width:100%;
+}
+.visit-project:hover {
+    transform: scale(1.03);
+}
+.arrow-right {
+    width:13px !important;
+}
+.heart-icon {
+    width:10px;
+}
+.contact-icon {
+    width:20px;
+}
+.brand-icon {
+    width:30px;
+}

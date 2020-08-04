@@ -3,3 +3,9 @@
     /* Margin bottom by footer height */
     margin-bottom: 60px;
 }
+.project {
+    min-height:445px;
+}
+.project-desc {
+    flex:auto;
+}

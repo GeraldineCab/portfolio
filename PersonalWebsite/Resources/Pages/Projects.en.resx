@@ -126,6 +126,15 @@
   <data name="LeadersGuideDesc" xml:space="preserve">
     <value>A web application to Great Place to Work® Colombia that allows companies to design and monitor action plans derived as intervention activities</value>
   </data>
+  <data name="OpinionsApp" xml:space="preserve">
+    <value>Opinion's app</value>
+  </data>
+  <data name="OpinionsAppButton" xml:space="preserve">
+    <value>Know more</value>
+  </data>
+  <data name="OpinionsAppDesc" xml:space="preserve">
+    <value>This web app is aimed to recopile opinions about public places of interest to help people to take better decisions and know the past experiences of other people</value>
+  </data>
   <data name="PagesTitle" xml:space="preserve">
     <value>Projects</value>
   </data>

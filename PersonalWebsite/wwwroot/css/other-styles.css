@@ -39,6 +39,7 @@
 .project-picture {
     width:100%;
 }
+
 .visit-project:hover {
     transform: scale(1.03);
 }

@@ -1,0 +1,5 @@
+﻿.main-wrapper {
+    top: 12vh;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
